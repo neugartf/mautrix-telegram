@@ -1,6 +1,4 @@
-FROM dock.mau.dev/tulir/lottieconverter:alpine-3.13
-
-ARG TARGETARCH=amd64
+FROM dock.mau.dev/tulir/lottieconverter:alpine-3.13TARGETARCH
 
 #RUN echo $'\
 #@edge http://dl-cdn.alpinelinux.org/alpine/edge/main\n\
