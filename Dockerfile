@@ -1,10 +1,5 @@
 FROM alpine:3.13.1
 
-#RUN echo $'\
-#@edge http://dl-cdn.alpinelinux.org/alpine/edge/main\n\
-#@edge http://dl-cdn.alpinelinux.org/alpine/edge/testing\n\
-#@edge http://dl-cdn.alpinelinux.org/alpine/edge/community' >> /etc/apk/repositories
-
 RUN apk add --no-cache \
       python3 py3-pip py3-setuptools py3-wheel \
       py3-virtualenv \
