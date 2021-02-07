@@ -25,4 +25,4 @@ jobs:
          tags: |
           ghcr.io/neugartf/mautrix-telegram:latest
           ghcr.io/neugartf/mautrix-telegram:v0.9.0    
-         platforms: linux/arm/v6,linux/arm/v7
+         platforms: linux/arm/v7
