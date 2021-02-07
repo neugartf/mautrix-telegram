@@ -1,10 +1,5 @@
 FROM ghcr.io/neugartf/lottieconverter:alpine-3.13
 
-RUN apk add --no-cache zlib libpng
-COPY --from=build /usr/lib/librlottie.so* /usr/lib/
-COPY --from=build /build/dist/Release/GNU-Linux/lottieconverter /usr/local/bin/lottieconverter
-
-
 #RUN echo $'\
 #@edge http://dl-cdn.alpinelinux.org/alpine/edge/main\n\
 #@edge http://dl-cdn.alpinelinux.org/alpine/edge/testing\n\
