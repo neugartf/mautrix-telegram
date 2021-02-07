@@ -1,4 +1,4 @@
-FROM ghcr.io/neugartf/lottieconverter:alpine-3.13.1
+FROM alpine-3.13.1
 
 #RUN echo $'\
 #@edge http://dl-cdn.alpinelinux.org/alpine/edge/main\n\
