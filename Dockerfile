@@ -1,4 +1,4 @@
-FROM alpine:3.13.1
+FROM ghcr.io/neugartf/lottieconverter:alpine-3.13.1
 
 RUN apk add --no-cache \
       python3 py3-pip py3-setuptools py3-wheel \
